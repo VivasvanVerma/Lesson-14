@@ -1,0 +1,13 @@
+import turtle
+turtle.Screen().bgcolor("blue")
+turtle.Screen().setup(300,400)
+polygon = turtle.Turtle()
+
+sides = 5
+length = 50
+angle = 360/sides
+
+for i in range(sides):
+    polygon.forward(length)
+    polygon.right(angle)
+turtle.done()
